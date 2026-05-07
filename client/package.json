@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce-multi-role-client",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^5.4.1",
+    "@stripe/stripe-js": "^8.6.0",
+    "@tanstack/react-query": "^4.42.0",
+    "axios": "^1.7.7",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.555.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^6.26.1",
+    "recharts": "^3.6.0",
+    "socket.io-client": "^4.8.1",
+    "tailwind-merge": "^3.4.0",
+    "zustand": "^4.5.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "baseline-browser-mapping": "^2.10.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.14",
+    "vite": "^7.3.1"
+  }
+}
